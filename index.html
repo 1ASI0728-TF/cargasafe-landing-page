@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      CargaSafe - Smart monitoring for reliable transportation
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/@iconify/iconify@3.1.1/dist/iconify.js"></script>
+  </head>
+
+  <body>
+    <!-- HERO SECTION -->
+    <header id="header" class="header">
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="nav-logo">
+            <img src="assets/logo.png" alt="CargaSafe Logo" class="logo" />
+          </div>
+
+          <ul class="nav-menu-list">
+            <a href="#features" class="nav-link" data-i18n="nav.features">Features</a>
+            <a href="#benefits" class="nav-link" data-i18n="nav.benefits">Benefits</a>
+            <a href="#testimonials" class="nav-link" data-i18n="nav.testimonials">Testimonials</a>
+            <a href="#pricing" class="nav-link" data-i18n="nav.pricing">Plans</a>
+            <a href="#contactUs" class="nav-link" data-i18n="nav.contact">Contact Us</a>
+          </ul>
+
+          <div class="nav-actions">
+            <a href="https://carga-safe.web.app" class="btn-web" data-i18n="nav.webAccess">Web Access</a>
+            <a href="#platforms" class="btn-app" data-i18n="nav.downloadApp">Download App</a>
+            <select class="btn-switch-language" id="swithLanguage">
+              <option value="en">EN</option>
+              <option value="es">ES</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero-section" id="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title" data-i18n="hero.title">Carga Safe</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            Smart monitoring for reliable transportation.
+          </p>
+          <a href="#contactUs" class="btn-quote">
+            <span data-i18n="hero.cta">Get a Quote Now!</span>
+            <iconify-icon
+              icon="meteor-icons:chevron-right"
+              class="quote-icon"
+            ></iconify-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section class="features-section" id="features">
+      <div class="features-container">
+        <div class="features-header">
+          <p class="features-overline" data-i18n="features.overline">FEATURES</p>
+          <h2 class="features-title" data-i18n="features.title">What does CargaSafe do?</h2>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card">
+            <div class="feature-image">
+              <img
+                src="assets/features/fn1.png"
+                alt="Real-time Monitoring"
+              />
+            </div>
+            <h3 class="feature-card-title" data-i18n="features.realtime.title">Real-time Monitoring</h3>
+            <p class="feature-card-description" data-i18n="features.realtime.desc">
+              View the location, temperature, and status of your cargo from any device. Stay informed minute by minute with accurate data.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-image">
+              <img src="assets/features/fn2.png" alt="Smart Alerts" />
+            </div>
+            <h3 class="feature-card-title" data-i18n="features.alerts.title">Smart Alerts</h3>
+            <p class="feature-card-description" data-i18n="features.alerts.desc">
+              Receive immediate notifications when your cargo is at risk (temperature variations, delays, unauthorized openings). Act before it's too late.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-image">
+              <img src="assets/features/fn3.jpg" alt="Centralized Management" />
+            </div>
+            <h3 class="feature-card-title" data-i18n="features.management.title">Centralized Management</h3>
+            <p class="feature-card-description" data-i18n="features.management.desc">
+              Manage all your shipments on a single platform. Access reports, history, and metrics to optimize your logistics chain.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS SECTION -->
+    <section class="benefits-section" id="benefits">
+      <div class="benefits-container">
+        <div class="benefits-header">
+          <p class="benefits-overline" data-i18n="benefits.overline">BENEFITS</p>
+          <h2 class="benefits-title" data-i18n="benefits.title">What do you gain with CargaSafe?</h2>
+        </div>
+
+        <div class="benefits-content">
+          <div class="benefit-block benefit-left">
+            <div class="benefit-image">
+              <img
+                src="assets/benefits/bn1.jpg"
+                alt="Reduction of Operational Risks"
+              />
+            </div>
+            <div class="benefit-text">
+              <h3 class="benefit-title" data-i18n="benefits.risks.title">Reduction of Operational Risks</h3>
+              <p class="benefit-description" data-i18n="benefits.risks.desc">
+                Detect incidents in real-time and avoid losses due to failures, theft, or delays. Immediate response ensures operations and protects the integrity of each shipment.
+              </p>
+            </div>
+          </div>
+
+          <div class="benefit-block benefit-right">
+            <div class="benefit-text">
+              <h3 class="benefit-title" data-i18n="benefits.costs.title">Logistics Cost Optimization</h3>
+              <p class="benefit-description" data-i18n="benefits.costs.desc">
+                Reduce returns, claims, and unnecessary waste. With real-time information, better decisions are made that increase efficiency and improve profitability.
+              </p>
+            </div>
+            <div class="benefit-image">
+              <img
+                src="assets/benefits/bn2.jpg"
+                alt="Logistics Cost Optimization"
+              />
+            </div>
+          </div>
+
+          <div class="benefit-block benefit-left">
+            <div class="benefit-image">
+              <img
+                src="assets/benefits/bn3.jpg"
+                alt="Greater Transparency and Business Trust"
+              />
+            </div>
+            <div class="benefit-text">
+              <h3 class="benefit-title" data-i18n="benefits.transparency.title">
+                Greater Transparency and Business Trust
+              </h3>
+              <p class="benefit-description" data-i18n="benefits.transparency.desc">
+                Provide access to clear and verifiable information for each shipment. Complete traceability generates greater trust, strengthens business relationships, and opens new business opportunities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="testimonials-container">
+        <div class="testimonials-header">
+          <p class="testimonials-overline" data-i18n="testimonials.overline">TESTIMONIALS</p>
+          <h2 class="testimonials-title" data-i18n="testimonials.title">What people say</h2>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="assets/testimonials/t1.png" alt="Andrea Salazar" />
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-role" data-i18n="testimonials.t1.role">LOGISTICS COORDINATOR</p>
+              <h3 class="testimonial-name" data-i18n="testimonials.t1.name">Andrea Salazar</h3>
+              <p class="testimonial-quote" data-i18n="testimonials.t1.quote">
+                With CargaSafe we can monitor each shipment in real-time and respond to any alert. This reduced risks and improved security throughout the operation.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="assets/testimonials/t2.png" alt="José Ramírez" />
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-role" data-i18n="testimonials.t2.role">LOGISTICS MANAGER</p>
+              <h3 class="testimonial-name" data-i18n="testimonials.t2.name">José Ramírez</h3>
+              <p class="testimonial-quote" data-i18n="testimonials.t2.quote">
+                The platform's transparency allows us to see where the cargo is at all times. Now we have more control and fewer incidents in our deliveries.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="assets/testimonials/t3.png" alt="Claudia Ortega" />
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-role" data-i18n="testimonials.t3.role">RETAIL CLIENT</p>
+              <h3 class="testimonial-name" data-i18n="testimonials.t3.name">Claudia Ortega</h3>
+              <p class="testimonial-quote" data-i18n="testimonials.t3.quote">
+                It gives me confidence knowing I receive alerts at each stage and can track my order in real-time. CargaSafe guarantees punctuality and transparency.
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-avatar">
+              <img src="assets/testimonials/t4.png" alt="Miguel Paredes" />
+            </div>
+            <div class="testimonial-content">
+              <p class="testimonial-role" data-i18n="testimonials.t4.role">INDEPENDENT CLIENT</p>
+              <h3 class="testimonial-name" data-i18n="testimonials.t4.name">Miguel Paredes</h3>
+              <p class="testimonial-quote" data-i18n="testimonials.t4.quote">
+                Before, I didn't know what was happening with my shipments, now I can track them at all times. CargaSafe alerts give me peace of mind and total confidence.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing-section" id="pricing">
+      <div class="pricing-container">
+        <div class="pricing-header">
+          <p class="pricing-overline" data-i18n="pricing.overline">SUBSCRIPTIONS</p>
+          <h2 class="pricing-title" data-i18n="pricing.title">Choose your plan</h2>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- Plan Básico -->
+          <article class="pricing-card">
+            <h3 class="pricing-name" data-i18n="pricing.basic.name">BASIC PLAN</h3>
+            <p class="pricing-subtitle" data-i18n="pricing.basic.subtitle">Up to 2 vehicles</p>
+            <p class="pricing-price">
+              <span class="currency">S/.</span> 29<span class="period" data-i18n="pricing.period">/month</span>
+            </p>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.feature1">Real-time monitoring</li>
+              <li data-i18n="pricing.feature2">Smart alerts</li>
+              <li data-i18n="pricing.feature3">Centralized management</li>
+            </ul>
+            <button class="pricing-btn" data-i18n="pricing.button">Choose plan</button>
+          </article>
+
+          <!-- Plan Estándar (destacado) -->
+          <article class="pricing-card is-featured">
+            <h3 class="pricing-name" data-i18n="pricing.standard.name">STANDARD PLAN</h3>
+            <p class="pricing-subtitle" data-i18n="pricing.standard.subtitle">Up to 5 vehicles</p>
+            <p class="pricing-price">
+              <span class="currency">S/.</span> 59<span class="period" data-i18n="pricing.period">/month</span>
+            </p>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.feature1">Real-time monitoring</li>
+              <li data-i18n="pricing.feature2">Smart alerts</li>
+              <li data-i18n="pricing.feature3">Centralized management</li>
+            </ul>
+            <button class="pricing-btn" data-i18n="pricing.button">Choose plan</button>
+          </article>
+
+          <!-- Plan Premium -->
+          <article class="pricing-card">
+            <h3 class="pricing-name" data-i18n="pricing.premium.name">PREMIUM PLAN</h3>
+            <p class="pricing-subtitle" data-i18n="pricing.premium.subtitle">Unlimited vehicles</p>
+            <p class="pricing-price">
+              <span class="currency">S/.</span> 99<span class="period" data-i18n="pricing.period">/month</span>
+            </p>
+            <ul class="pricing-features">
+              <li data-i18n="pricing.feature1">Real-time monitoring</li>
+              <li data-i18n="pricing.feature2">Smart alerts</li>
+              <li data-i18n="pricing.feature3">Centralized management</li>
+            </ul>
+            <button class="pricing-btn" data-i18n="pricing.button">Choose plan</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About the product -->
+    <section class="about-product" id="aboutProduct">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about.title">About the product</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="about-product" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Team -->
+    <section class="team" id="ourTeam">
+        <div class="container">
+            <h2 class="section-title" data-i18n="team.title">Our Team</h2>
+
+            <div class="team-grid">
+                <article class="team-card">
+                    <img class="team-photo" src="assets/aboutTeam/Foto_Edery.jpg" alt="Edery photo" loading="lazy">
+                    <h3 class="team-name">Edery</h3>
+                    <p class="team-role" data-i18n="team.edery.role">Frontend & UI/UX</p>
+                    <p class="team-bio"  data-i18n="team.edery.bio">
+                        Experto en diseño de arquitecturas escalables con trayectoria probada liderando múltiples equipos de alto rendimiento hacia el éxito.
+                    </p>
+                </article>
+
+                <article class="team-card">
+                    <img class="team-photo" src="assets/aboutTeam/jefrey.png" alt="Jefry photo" loading="lazy">
+                    <h3 class="team-name">Jefrey</h3>
+                    <p class="team-role" data-i18n="team.jefry.role">Project Support & QA</p>
+                    <p class="team-bio"  data-i18n="team.jefry.bio">
+                        9th-semester student, responsible and proactive. Always learning and contributing to the project’s continuous improvement.
+                    </p>
+                </article>
+
+                <article class="team-card">
+                    <img class="team-photo" src="assets/aboutTeam/george.png" alt="George photo" loading="lazy">
+                    <h3 class="team-name">George</h3>
+                    <p class="team-role" data-i18n="team.george.role">Organization & Delivery</p>
+                    <p class="team-bio"  data-i18n="team.george.bio">
+                        8th-semester Software Engineering student. Organized, cooperative, and focused on achieving solid performance in each milestone.
+                    </p>
+                </article>
+
+                <article class="team-card">
+                    <img class="team-photo" src="assets/aboutTeam/FOTO_JOSE.jpg" alt="Jose photo" loading="lazy">
+                    <h3 class="team-name">Jose</h3>
+                    <p class="team-role" data-i18n="team.jose.role">Full-Stack & DevOps</p>
+                    <p class="team-bio"  data-i18n="team.jose.bio">
+                        8th-semester at UPC. Enjoys data analysis and web dev. Skills in Angular, Java with SpringBoot, Docker, Python, HTML, and JS.
+                    </p>
+                </article>
+
+                <article class="team-card">
+                    <img class="team-photo" src="assets/aboutTeam/PauloProfile.png" alt="Paulo photo" loading="lazy">
+                    <h3 class="team-name">Paulo</h3>
+                    <p class="team-role" data-i18n="team.paulo.role">Software Engineering</p>
+                    <p class="team-bio"  data-i18n="team.paulo.bio">
+                        8th-year student. Grew through challenges and now leads by example — organized, on time, and team-friendly.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- About the team -->
+    <section class="about-team" id="aboutTeam">
+        <div class="container">
+            <h2 class="section-title" data-i18n="aboutTeam.title">About the team</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                    title="About the Team" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- QUOTE SECTION -->
+    <section class="quote-section" id="contactUs">
+      <div class="quote-container">
+        <div class="quote-content">
+          <div class="quote-text">
+            <h2 class="quote-title" data-i18n="quote.title">Request your personalized quote</h2>
+            <p class="quote-description" data-i18n="quote.description">
+              Leave us your details and an advisor will contact you with a customized logistics proposal, without obligation and with the security of CargaSafe.
+            </p>
+          </div>
+
+          <div class="quote-form-wrapper">
+            <form class="quote-form">
+              <div class="form-field">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  data-i18n="quote.email"
+                  required
+                />
+              </div>
+
+              <div class="form-row">
+                <div class="form-field form-field-half">
+                  <input
+                    type="text"
+                    id="firstName"
+                    name="firstName"
+                    placeholder="First name"
+                    data-i18n="quote.firstName"
+                    required
+                  />
+                </div>
+                <div class="form-field form-field-half">
+                  <input
+                    type="text"
+                    id="lastName"
+                    name="lastName"
+                    placeholder="Last name"
+                    data-i18n="quote.lastName"
+                    required
+                  />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <textarea
+                  id="details"
+                  name="details"
+                  placeholder="Additional details"
+                  data-i18n="quote.details"
+                  rows="4"
+                ></textarea>
+              </div>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-submit" data-i18n="quote.submit">
+                  Send request
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="platform-section" id="platforms">
+      <div class="platform-container">
+        <div class="platform-header">
+          <p class="platform-overline" data-i18n="platform.overline">DISTRIBUTION</p>
+          <h2 class="platform-title" data-i18n="platform.title">Access the platform</h2>
+        </div>
+
+        <div class="platform-grid">
+          <div class="platform-card">
+            <div class="platform-icon">
+              <img src="assets/platforms/d1.png" alt="Web Application" />
+            </div>
+            <h3 class="platform-card-title" data-i18n="platform.web.title">Web Application</h3>
+            <p class="platform-card-description" data-i18n="platform.web.desc">
+              Access directly from your browser, no downloads required.
+            </p>
+            <button class="platform-btn" data-i18n="platform.web.button">Use now</button>
+          </div>
+
+          <div class="platform-card">
+            <div class="platform-icon">
+              <img src="assets/platforms/d2.png" alt="iOS Application" />
+            </div>
+            <h3 class="platform-card-title" data-i18n="platform.ios.title">iOS Application</h3>
+            <p class="platform-card-description" data-i18n="platform.ios.desc">
+              Download the app from the App Store and manage everything from your iPhone or iPad.
+            </p>
+            <button class="platform-btn" data-i18n="platform.ios.button">Download on iOS</button>
+          </div>
+
+          <div class="platform-card">
+            <div class="platform-icon">
+              <img src="assets/platforms/d3.png" alt="Android Application" />
+            </div>
+            <h3 class="platform-card-title" data-i18n="platform.android.title">Android Application</h3>
+            <p class="platform-card-description" data-i18n="platform.android.desc">
+              Available on Google Play to use on any Android device.
+            </p>
+            <button class="platform-btn" data-i18n="platform.android.button">Download on Android</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+  <div class="footer-container">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img
+          src="assets/Logo.png"
+          alt="CargaSafe"
+          class="footer-logo-img"
+        />
+      </div>
+
+      <div class="footer-social">
+        <a href="#" class="social-link">
+          <img src="assets/social/facebook.png" alt="Facebook" />
+        </a>
+        <a href="#" class="social-link">
+          <img src="assets/social/linkedln.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <p data-i18n="footer.rights">
+        © 2025 CargaSafe. All rights reserved.
+      </p>
+      <a href="terms-conditions.html"  class="footer-link" data-i18n="terms.conditions">Terms and Conditions</a>
+    </div>
+  </div>
+</footer>
+    
+    
+    <!-- Scripts -->
+    <script src="i18n.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
